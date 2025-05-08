@@ -5,6 +5,19 @@
   },
   "scripts": {
     "test": "npx playwright test tests/test.spec.js"
-  }
-
+  },
+  "name": "play",
+  "version": "1.0.0",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0",
+    "playwright-core": "^1.52.0",
+    "undici-types": "^6.21.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
