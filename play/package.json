@@ -8,7 +8,7 @@
   },
   "name": "play",
   "version": "1.0.0",
-  "main": "playwright.config.js",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },

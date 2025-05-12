@@ -12,4 +12,5 @@ test('DeepAI rephrasing and Naukri profile update', async ({ page }) => {
   await login.navigateToNakuriPage();
   await login.nakuri(deepAiResponses,TestData.email_id,TestData.password);
   await page.waitForTimeout(500);
+  console.log("this is end of test file")
 });
